@@ -1,0 +1,35 @@
+.button{
+    height: 100px;
+}
+
+.rounded-5{
+    border-radius: 5px !important;
+}
+
+.rounded-10{
+    border-radius: 10px !important;
+}
+
+.borderless{
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.overlay {
+
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+ }
